@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Patient Dashboard</title>
+  <!-- <link rel="stylesheet" href="p_main.css" /> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9fff9;
+    }
+
+    .dashboard-navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      background-color: #e0f8e9;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+      color: #2e7d32;
+    }
+
+    .notification {
+      color: #2e7d32;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .dashboard-container {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .options {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+    }
+
+    .dashboard-button {
+      display: inline-block;
+      background-color: #66bb6a;
+      color: white;
+      padding: 20px 30px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 18px;
+      transition: background 0.3s ease;
+    }
+
+    .dashboard-button:hover {
+      background-color: #2e7d32;
+    }
+
+    .dashboard-button i {
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header class="dashboard-navbar">
+    <div class="logo">
+      <i class="fas fa-notes-medical"></i> Patient Dashboard
+    </div>
+    <div class="notification">
+      <i class="fas fa-bell"></i> Notifications
+    </div>
+  </header>
+
+  <main class="dashboard-container">
+    <h2>Welcome! Choose an Option</h2>
+    <div class="options">
+      <a href="personal.html" class="dashboard-button">
+        <i class="fas fa-user"></i> Personal Details
+      </a>
+      <a href="upload.html" class="dashboard-button">
+        <i class="fas fa-file-upload"></i> Upload Prescription
+      </a>
+    </div>
+  </main>
+</body>
+</html>

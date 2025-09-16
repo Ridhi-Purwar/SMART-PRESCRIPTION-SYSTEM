@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0fff0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.login-container {
+  width: 350px;
+  margin: 100px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 128, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  color: #2e7d32;
+  margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #c8e6c9;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #66bb6a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #2e7d32;
+}
+
+.reset {
+  margin-top: 10px;
+}
+
+.reset a {
+  color: #2e7d32;
+  text-decoration: none;
+}
